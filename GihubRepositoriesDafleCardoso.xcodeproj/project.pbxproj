@@ -3,18 +3,47 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5143CD8F105B358DBC490326 /* Pods_GihubRepositoriesDafleCardosoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5C67A6101AD36E6BA9DDC5 /* Pods_GihubRepositoriesDafleCardosoTests.framework */; };
 		D27E591E246DD05700CC9E89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E591D246DD05700CC9E89 /* AppDelegate.swift */; };
-		D27E5920246DD05700CC9E89 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E591F246DD05700CC9E89 /* SceneDelegate.swift */; };
 		D27E5922246DD05700CC9E89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E5921246DD05700CC9E89 /* ViewController.swift */; };
 		D27E5925246DD05700CC9E89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D27E5923246DD05700CC9E89 /* Main.storyboard */; };
 		D27E5927246DD05800CC9E89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D27E5926246DD05800CC9E89 /* Assets.xcassets */; };
 		D27E592A246DD05800CC9E89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D27E5928246DD05800CC9E89 /* LaunchScreen.storyboard */; };
 		D27E5935246DD05900CC9E89 /* GihubRepositoriesDafleCardosoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E5934246DD05900CC9E89 /* GihubRepositoriesDafleCardosoTests.swift */; };
 		D27E5940246DD05900CC9E89 /* GihubRepositoriesDafleCardosoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E593F246DD05900CC9E89 /* GihubRepositoriesDafleCardosoUITests.swift */; };
+		D27E5954246DD4EA00CC9E89 /* GithubApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E5953246DD4EA00CC9E89 /* GithubApi.swift */; };
+		D27E5957246DD59D00CC9E89 /* Enviroment.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E5956246DD59D00CC9E89 /* Enviroment.swift */; };
+		D27E595924701D1D00CC9E89 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E595824701D1D00CC9E89 /* String+Extension.swift */; };
+		D27E595B24701D9400CC9E89 /* GithubService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E595A24701D9400CC9E89 /* GithubService.swift */; };
+		D27E595D24701DC600CC9E89 /* GithubIssue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E595C24701DC600CC9E89 /* GithubIssue.swift */; };
+		D27E595F2470206700CC9E89 /* ApiProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E595E2470206700CC9E89 /* ApiProvider.swift */; };
+		D27E5961247020C900CC9E89 /* JSONDecoder+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E5960247020C900CC9E89 /* JSONDecoder+Extension.swift */; };
+		D27E59652470211200CC9E89 /* Single+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E59642470211200CC9E89 /* Single+Extension.swift */; };
+		D27E59682470228D00CC9E89 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E59672470228D00CC9E89 /* BaseViewController.swift */; };
+		D27E596B247022C700CC9E89 /* CustomLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E596A247022C700CC9E89 /* CustomLoadingView.swift */; };
+		D27E596D247022D900CC9E89 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E596C247022D900CC9E89 /* BaseViewModel.swift */; };
+		D27E596F2470232300CC9E89 /* HandleError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E596E2470232300CC9E89 /* HandleError.swift */; };
+		D27E59712470237000CC9E89 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E59702470237000CC9E89 /* Reachability.swift */; };
+		D27E5974247023B700CC9E89 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E5973247023B700CC9E89 /* HomeViewController.swift */; };
+		D27E5976247023C300CC9E89 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E5975247023C300CC9E89 /* HomeViewModel.swift */; };
+		D27E5978247025BE00CC9E89 /* Global+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E5977247025BE00CC9E89 /* Global+Extension.swift */; };
+		D27E597A2470278B00CC9E89 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E59792470278B00CC9E89 /* AppCoordinator.swift */; };
+		D27E597E247027F000CC9E89 /* IssueDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E597C247027F000CC9E89 /* IssueDetailViewController.swift */; };
+		D27E597F247027F000CC9E89 /* IssueDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D27E597D247027F000CC9E89 /* IssueDetailViewController.xib */; };
+		D27E59812470287700CC9E89 /* IssueDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E59802470287700CC9E89 /* IssueDetailViewModel.swift */; };
+		D27E598324702CE100CC9E89 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E598224702CE100CC9E89 /* UIImageView+Extension.swift */; };
+		D27E598524702D9A00CC9E89 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E598424702D9A00CC9E89 /* Date+Extension.swift */; };
+		D27E59872470315200CC9E89 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E59862470315200CC9E89 /* UIViewController+Extension.swift */; };
+		D27E59892470333D00CC9E89 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D27E59882470333D00CC9E89 /* HomeViewController.xib */; };
+		D27E598B247033D400CC9E89 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E598A247033D400CC9E89 /* UITableView+Extension.swift */; };
+		D27E5993247034BD00CC9E89 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E5991247034BD00CC9E89 /* HomeCell.swift */; };
+		D27E5994247034BD00CC9E89 /* HomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D27E5992247034BD00CC9E89 /* HomeCell.xib */; };
+		F36D55656C976C89D4CAD27B /* Pods_GihubRepositoriesDafleCardoso_GihubRepositoriesDafleCardosoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92BC1B2DA424034D8B5C7897 /* Pods_GihubRepositoriesDafleCardoso_GihubRepositoriesDafleCardosoUITests.framework */; };
+		FD4776271AA7F69C9AA2EFED /* Pods_GihubRepositoriesDafleCardoso.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 567C64617566191982F3F841 /* Pods_GihubRepositoriesDafleCardoso.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +64,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06FE383F734EDA6593D4F166 /* Pods-GihubRepositoriesDafleCardoso-GihubRepositoriesDafleCardosoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GihubRepositoriesDafleCardoso-GihubRepositoriesDafleCardosoUITests.debug.xcconfig"; path = "Target Support Files/Pods-GihubRepositoriesDafleCardoso-GihubRepositoriesDafleCardosoUITests/Pods-GihubRepositoriesDafleCardoso-GihubRepositoriesDafleCardosoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		567C64617566191982F3F841 /* Pods_GihubRepositoriesDafleCardoso.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GihubRepositoriesDafleCardoso.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72C286D70C6690765A8CC98D /* Pods-GihubRepositoriesDafleCardoso.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GihubRepositoriesDafleCardoso.debug.xcconfig"; path = "Target Support Files/Pods-GihubRepositoriesDafleCardoso/Pods-GihubRepositoriesDafleCardoso.debug.xcconfig"; sourceTree = "<group>"; };
+		881A779A282D321ACF5C0734 /* Pods-GihubRepositoriesDafleCardoso-GihubRepositoriesDafleCardosoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GihubRepositoriesDafleCardoso-GihubRepositoriesDafleCardosoUITests.release.xcconfig"; path = "Target Support Files/Pods-GihubRepositoriesDafleCardoso-GihubRepositoriesDafleCardosoUITests/Pods-GihubRepositoriesDafleCardoso-GihubRepositoriesDafleCardosoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		92BC1B2DA424034D8B5C7897 /* Pods_GihubRepositoriesDafleCardoso_GihubRepositoriesDafleCardosoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GihubRepositoriesDafleCardoso_GihubRepositoriesDafleCardosoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C78F071D50EB6679B5AC666 /* Pods-GihubRepositoriesDafleCardosoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GihubRepositoriesDafleCardosoTests.debug.xcconfig"; path = "Target Support Files/Pods-GihubRepositoriesDafleCardosoTests/Pods-GihubRepositoriesDafleCardosoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A15E40E66B6438D172357FCD /* Pods-GihubRepositoriesDafleCardosoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GihubRepositoriesDafleCardosoTests.release.xcconfig"; path = "Target Support Files/Pods-GihubRepositoriesDafleCardosoTests/Pods-GihubRepositoriesDafleCardosoTests.release.xcconfig"; sourceTree = "<group>"; };
+		AEDC4787A90FD810213A5E6D /* Pods-GihubRepositoriesDafleCardoso.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GihubRepositoriesDafleCardoso.release.xcconfig"; path = "Target Support Files/Pods-GihubRepositoriesDafleCardoso/Pods-GihubRepositoriesDafleCardoso.release.xcconfig"; sourceTree = "<group>"; };
 		D27E591A246DD05700CC9E89 /* GihubRepositoriesDafleCardoso.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GihubRepositoriesDafleCardoso.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D27E591D246DD05700CC9E89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D27E591F246DD05700CC9E89 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D27E5921246DD05700CC9E89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D27E5924246DD05700CC9E89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D27E5926246DD05800CC9E89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +85,34 @@
 		D27E593B246DD05900CC9E89 /* GihubRepositoriesDafleCardosoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GihubRepositoriesDafleCardosoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D27E593F246DD05900CC9E89 /* GihubRepositoriesDafleCardosoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GihubRepositoriesDafleCardosoUITests.swift; sourceTree = "<group>"; };
 		D27E5941246DD05900CC9E89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D27E5953246DD4EA00CC9E89 /* GithubApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubApi.swift; sourceTree = "<group>"; };
+		D27E5956246DD59D00CC9E89 /* Enviroment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enviroment.swift; sourceTree = "<group>"; };
+		D27E595824701D1D00CC9E89 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		D27E595A24701D9400CC9E89 /* GithubService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubService.swift; sourceTree = "<group>"; };
+		D27E595C24701DC600CC9E89 /* GithubIssue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubIssue.swift; sourceTree = "<group>"; };
+		D27E595E2470206700CC9E89 /* ApiProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiProvider.swift; sourceTree = "<group>"; };
+		D27E5960247020C900CC9E89 /* JSONDecoder+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JSONDecoder+Extension.swift"; sourceTree = "<group>"; };
+		D27E59642470211200CC9E89 /* Single+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Single+Extension.swift"; sourceTree = "<group>"; };
+		D27E59672470228D00CC9E89 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		D27E596A247022C700CC9E89 /* CustomLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLoadingView.swift; sourceTree = "<group>"; };
+		D27E596C247022D900CC9E89 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		D27E596E2470232300CC9E89 /* HandleError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandleError.swift; sourceTree = "<group>"; };
+		D27E59702470237000CC9E89 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		D27E5973247023B700CC9E89 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D27E5975247023C300CC9E89 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		D27E5977247025BE00CC9E89 /* Global+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Global+Extension.swift"; sourceTree = "<group>"; };
+		D27E59792470278B00CC9E89 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		D27E597C247027F000CC9E89 /* IssueDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueDetailViewController.swift; sourceTree = "<group>"; };
+		D27E597D247027F000CC9E89 /* IssueDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IssueDetailViewController.xib; sourceTree = "<group>"; };
+		D27E59802470287700CC9E89 /* IssueDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueDetailViewModel.swift; sourceTree = "<group>"; };
+		D27E598224702CE100CC9E89 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		D27E598424702D9A00CC9E89 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		D27E59862470315200CC9E89 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		D27E59882470333D00CC9E89 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		D27E598A247033D400CC9E89 /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
+		D27E5991247034BD00CC9E89 /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		D27E5992247034BD00CC9E89 /* HomeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCell.xib; sourceTree = "<group>"; };
+		EC5C67A6101AD36E6BA9DDC5 /* Pods_GihubRepositoriesDafleCardosoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GihubRepositoriesDafleCardosoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD4776271AA7F69C9AA2EFED /* Pods_GihubRepositoriesDafleCardoso.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5143CD8F105B358DBC490326 /* Pods_GihubRepositoriesDafleCardosoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +136,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F36D55656C976C89D4CAD27B /* Pods_GihubRepositoriesDafleCardoso_GihubRepositoriesDafleCardosoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1BEA1FF4215149041AC6315E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				567C64617566191982F3F841 /* Pods_GihubRepositoriesDafleCardoso.framework */,
+				92BC1B2DA424034D8B5C7897 /* Pods_GihubRepositoriesDafleCardoso_GihubRepositoriesDafleCardosoUITests.framework */,
+				EC5C67A6101AD36E6BA9DDC5 /* Pods_GihubRepositoriesDafleCardosoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5F724585E0B4BB3D3794CA26 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72C286D70C6690765A8CC98D /* Pods-GihubRepositoriesDafleCardoso.debug.xcconfig */,
+				AEDC4787A90FD810213A5E6D /* Pods-GihubRepositoriesDafleCardoso.release.xcconfig */,
+				06FE383F734EDA6593D4F166 /* Pods-GihubRepositoriesDafleCardoso-GihubRepositoriesDafleCardosoUITests.debug.xcconfig */,
+				881A779A282D321ACF5C0734 /* Pods-GihubRepositoriesDafleCardoso-GihubRepositoriesDafleCardosoUITests.release.xcconfig */,
+				9C78F071D50EB6679B5AC666 /* Pods-GihubRepositoriesDafleCardosoTests.debug.xcconfig */,
+				A15E40E66B6438D172357FCD /* Pods-GihubRepositoriesDafleCardosoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D27E5911246DD05700CC9E89 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +173,8 @@
 				D27E5933246DD05900CC9E89 /* GihubRepositoriesDafleCardosoTests */,
 				D27E593E246DD05900CC9E89 /* GihubRepositoriesDafleCardosoUITests */,
 				D27E591B246DD05700CC9E89 /* Products */,
+				5F724585E0B4BB3D3794CA26 /* Pods */,
+				1BEA1FF4215149041AC6315E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +191,14 @@
 		D27E591C246DD05700CC9E89 /* GihubRepositoriesDafleCardoso */ = {
 			isa = PBXGroup;
 			children = (
+				D27E5969247022AB00CC9E89 /* Components */,
+				D27E594F246DD48A00CC9E89 /* Extensions */,
+				D27E594D246DD47500CC9E89 /* Data */,
+				D27E594E246DD48000CC9E89 /* Scenes */,
 				D27E591D246DD05700CC9E89 /* AppDelegate.swift */,
-				D27E591F246DD05700CC9E89 /* SceneDelegate.swift */,
 				D27E5921246DD05700CC9E89 /* ViewController.swift */,
+				D27E5956246DD59D00CC9E89 /* Enviroment.swift */,
+				D27E59792470278B00CC9E89 /* AppCoordinator.swift */,
 				D27E5923246DD05700CC9E89 /* Main.storyboard */,
 				D27E5926246DD05800CC9E89 /* Assets.xcassets */,
 				D27E5928246DD05800CC9E89 /* LaunchScreen.storyboard */,
@@ -128,6 +225,107 @@
 			path = GihubRepositoriesDafleCardosoUITests;
 			sourceTree = "<group>";
 		};
+		D27E594D246DD47500CC9E89 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D27E5955246DD52900CC9E89 /* Model */,
+				D27E5951246DD4D100CC9E89 /* Github */,
+				D27E595E2470206700CC9E89 /* ApiProvider.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		D27E594E246DD48000CC9E89 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				D27E59662470218300CC9E89 /* Base */,
+				D27E5972247023A200CC9E89 /* Home */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		D27E594F246DD48A00CC9E89 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D27E595824701D1D00CC9E89 /* String+Extension.swift */,
+				D27E5960247020C900CC9E89 /* JSONDecoder+Extension.swift */,
+				D27E59642470211200CC9E89 /* Single+Extension.swift */,
+				D27E5977247025BE00CC9E89 /* Global+Extension.swift */,
+				D27E598224702CE100CC9E89 /* UIImageView+Extension.swift */,
+				D27E598424702D9A00CC9E89 /* Date+Extension.swift */,
+				D27E59862470315200CC9E89 /* UIViewController+Extension.swift */,
+				D27E598A247033D400CC9E89 /* UITableView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D27E5951246DD4D100CC9E89 /* Github */ = {
+			isa = PBXGroup;
+			children = (
+				D27E5953246DD4EA00CC9E89 /* GithubApi.swift */,
+				D27E595A24701D9400CC9E89 /* GithubService.swift */,
+			);
+			path = Github;
+			sourceTree = "<group>";
+		};
+		D27E5955246DD52900CC9E89 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D27E595C24701DC600CC9E89 /* GithubIssue.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D27E59662470218300CC9E89 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D27E59672470228D00CC9E89 /* BaseViewController.swift */,
+				D27E596C247022D900CC9E89 /* BaseViewModel.swift */,
+				D27E596E2470232300CC9E89 /* HandleError.swift */,
+				D27E59702470237000CC9E89 /* Reachability.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		D27E5969247022AB00CC9E89 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D27E596A247022C700CC9E89 /* CustomLoadingView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D27E5972247023A200CC9E89 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D27E597B247027C500CC9E89 /* Detail */,
+				D27E598C2470347900CC9E89 /* Cell */,
+				D27E5975247023C300CC9E89 /* HomeViewModel.swift */,
+				D27E5973247023B700CC9E89 /* HomeViewController.swift */,
+				D27E59882470333D00CC9E89 /* HomeViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D27E597B247027C500CC9E89 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				D27E59802470287700CC9E89 /* IssueDetailViewModel.swift */,
+				D27E597C247027F000CC9E89 /* IssueDetailViewController.swift */,
+				D27E597D247027F000CC9E89 /* IssueDetailViewController.xib */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		D27E598C2470347900CC9E89 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D27E5991247034BD00CC9E89 /* HomeCell.swift */,
+				D27E5992247034BD00CC9E89 /* HomeCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +333,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D27E5944246DD05900CC9E89 /* Build configuration list for PBXNativeTarget "GihubRepositoriesDafleCardoso" */;
 			buildPhases = (
+				B6A813FDA66DB52221416395 /* [CP] Check Pods Manifest.lock */,
 				D27E5916246DD05700CC9E89 /* Sources */,
 				D27E5917246DD05700CC9E89 /* Frameworks */,
 				D27E5918246DD05700CC9E89 /* Resources */,
+				1C76BA6DFCC3A987666B99AD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,9 +352,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D27E5947246DD05900CC9E89 /* Build configuration list for PBXNativeTarget "GihubRepositoriesDafleCardosoTests" */;
 			buildPhases = (
+				DEBDACD691AED041FC6174EB /* [CP] Check Pods Manifest.lock */,
 				D27E592C246DD05900CC9E89 /* Sources */,
 				D27E592D246DD05900CC9E89 /* Frameworks */,
 				D27E592E246DD05900CC9E89 /* Resources */,
+				DBF2C2A4878758737BCA2AC1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -170,9 +372,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D27E594A246DD05900CC9E89 /* Build configuration list for PBXNativeTarget "GihubRepositoriesDafleCardosoUITests" */;
 			buildPhases = (
+				7E2954EC663F700BF08790F6 /* [CP] Check Pods Manifest.lock */,
 				D27E5937246DD05900CC9E89 /* Sources */,
 				D27E5938246DD05900CC9E89 /* Frameworks */,
 				D27E5939246DD05900CC9E89 /* Resources */,
+				58E572BFC20354DD31F6386E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,7 +437,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D27E592A246DD05800CC9E89 /* LaunchScreen.storyboard in Resources */,
+				D27E597F247027F000CC9E89 /* IssueDetailViewController.xib in Resources */,
+				D27E59892470333D00CC9E89 /* HomeViewController.xib in Resources */,
 				D27E5927246DD05800CC9E89 /* Assets.xcassets in Resources */,
+				D27E5994247034BD00CC9E89 /* HomeCell.xib in Resources */,
 				D27E5925246DD05700CC9E89 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,14 +461,157 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1C76BA6DFCC3A987666B99AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GihubRepositoriesDafleCardoso/Pods-GihubRepositoriesDafleCardoso-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GihubRepositoriesDafleCardoso/Pods-GihubRepositoriesDafleCardoso-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GihubRepositoriesDafleCardoso/Pods-GihubRepositoriesDafleCardoso-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58E572BFC20354DD31F6386E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GihubRepositoriesDafleCardoso-GihubRepositoriesDafleCardosoUITests/Pods-GihubRepositoriesDafleCardoso-GihubRepositoriesDafleCardosoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GihubRepositoriesDafleCardoso-GihubRepositoriesDafleCardosoUITests/Pods-GihubRepositoriesDafleCardoso-GihubRepositoriesDafleCardosoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GihubRepositoriesDafleCardoso-GihubRepositoriesDafleCardosoUITests/Pods-GihubRepositoriesDafleCardoso-GihubRepositoriesDafleCardosoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E2954EC663F700BF08790F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GihubRepositoriesDafleCardoso-GihubRepositoriesDafleCardosoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6A813FDA66DB52221416395 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GihubRepositoriesDafleCardoso-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBF2C2A4878758737BCA2AC1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GihubRepositoriesDafleCardosoTests/Pods-GihubRepositoriesDafleCardosoTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GihubRepositoriesDafleCardosoTests/Pods-GihubRepositoriesDafleCardosoTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GihubRepositoriesDafleCardosoTests/Pods-GihubRepositoriesDafleCardosoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEBDACD691AED041FC6174EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GihubRepositoriesDafleCardosoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D27E5916246DD05700CC9E89 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D27E5961247020C900CC9E89 /* JSONDecoder+Extension.swift in Sources */,
+				D27E5976247023C300CC9E89 /* HomeViewModel.swift in Sources */,
+				D27E5954246DD4EA00CC9E89 /* GithubApi.swift in Sources */,
+				D27E59652470211200CC9E89 /* Single+Extension.swift in Sources */,
+				D27E598324702CE100CC9E89 /* UIImageView+Extension.swift in Sources */,
+				D27E598524702D9A00CC9E89 /* Date+Extension.swift in Sources */,
+				D27E5974247023B700CC9E89 /* HomeViewController.swift in Sources */,
+				D27E5993247034BD00CC9E89 /* HomeCell.swift in Sources */,
+				D27E596D247022D900CC9E89 /* BaseViewModel.swift in Sources */,
+				D27E595F2470206700CC9E89 /* ApiProvider.swift in Sources */,
 				D27E5922246DD05700CC9E89 /* ViewController.swift in Sources */,
+				D27E59682470228D00CC9E89 /* BaseViewController.swift in Sources */,
+				D27E595D24701DC600CC9E89 /* GithubIssue.swift in Sources */,
+				D27E595B24701D9400CC9E89 /* GithubService.swift in Sources */,
+				D27E59872470315200CC9E89 /* UIViewController+Extension.swift in Sources */,
+				D27E596F2470232300CC9E89 /* HandleError.swift in Sources */,
+				D27E597A2470278B00CC9E89 /* AppCoordinator.swift in Sources */,
+				D27E5957246DD59D00CC9E89 /* Enviroment.swift in Sources */,
+				D27E595924701D1D00CC9E89 /* String+Extension.swift in Sources */,
+				D27E596B247022C700CC9E89 /* CustomLoadingView.swift in Sources */,
+				D27E597E247027F000CC9E89 /* IssueDetailViewController.swift in Sources */,
+				D27E59712470237000CC9E89 /* Reachability.swift in Sources */,
 				D27E591E246DD05700CC9E89 /* AppDelegate.swift in Sources */,
-				D27E5920246DD05700CC9E89 /* SceneDelegate.swift in Sources */,
+				D27E5978247025BE00CC9E89 /* Global+Extension.swift in Sources */,
+				D27E59812470287700CC9E89 /* IssueDetailViewModel.swift in Sources */,
+				D27E598B247033D400CC9E89 /* UITableView+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,11 +782,14 @@
 		};
 		D27E5945246DD05900CC9E89 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72C286D70C6690765A8CC98D /* Pods-GihubRepositoriesDafleCardoso.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				BASE_URL = "https://api.github.com";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BBVW89BSDY;
 				INFOPLIST_FILE = GihubRepositoriesDafleCardoso/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,11 +803,14 @@
 		};
 		D27E5946246DD05900CC9E89 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEDC4787A90FD810213A5E6D /* Pods-GihubRepositoriesDafleCardoso.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				BASE_URL = "https://api.github.com";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BBVW89BSDY;
 				INFOPLIST_FILE = GihubRepositoriesDafleCardoso/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -468,6 +824,7 @@
 		};
 		D27E5948246DD05900CC9E89 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C78F071D50EB6679B5AC666 /* Pods-GihubRepositoriesDafleCardosoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +847,7 @@
 		};
 		D27E5949246DD05900CC9E89 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A15E40E66B6438D172357FCD /* Pods-GihubRepositoriesDafleCardosoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +870,7 @@
 		};
 		D27E594B246DD05900CC9E89 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06FE383F734EDA6593D4F166 /* Pods-GihubRepositoriesDafleCardoso-GihubRepositoriesDafleCardosoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +891,7 @@
 		};
 		D27E594C246DD05900CC9E89 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 881A779A282D321ACF5C0734 /* Pods-GihubRepositoriesDafleCardoso-GihubRepositoriesDafleCardosoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
