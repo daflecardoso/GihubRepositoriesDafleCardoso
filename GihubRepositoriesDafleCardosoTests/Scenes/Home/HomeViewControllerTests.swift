@@ -24,4 +24,15 @@ class HomeViewControllerTests: XCTestCase {
             .rootViewController = viewController
         XCTAssertEqual(viewController.tableView.numberOfRows(inSection: 0), 2)
     }
+    
+    func test_number_of_lines_in_tableview_with_empty_data() {
+        let viewModel = HomeViewModel(githubService: GithubServiceMock(with: .empty))
+        let viewController = HomeViewController(viewModel: viewModel)
+        UIApplication.shared
+            .windows
+            .filter {$0.isKeyWindow}
+            .first?
+            .rootViewController = viewController
+        XCTAssertEqual(viewController.tableView.numberOfRows(inSection: 0), 0)
+    }
 }
