@@ -6,8 +6,6 @@ target 'GihubRepositoriesDafleCardoso' do
   use_frameworks!
 
   # Pods for GihubRepositoriesDafleCardoso
-  pod 'IQKeyboardManagerSwift'
-  pod 'Hippolyte'
   pod 'RxSwift', '~> 5'
   pod 'RxCocoa', '~> 5'
   pod 'Moya/RxSwift', '~> 14.0'
@@ -19,7 +17,6 @@ target 'GihubRepositoriesDafleCardoso' do
     # Pods for testing
     pod 'RxBlocking', '~> 5'
     pod 'RxTest', '~> 5'
-    pod 'Stubber'
   end
 
   target 'GihubRepositoriesDafleCardosoUITests' do
