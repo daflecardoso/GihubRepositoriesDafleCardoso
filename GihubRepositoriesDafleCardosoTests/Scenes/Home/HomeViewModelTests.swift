@@ -14,7 +14,7 @@ class HomeViewModelTests: XCTestCase {
     
     private let disposeBag = DisposeBag()
     
-    func testFetchIssuesSuccess() {
+    func test_fetch_issues_success() {
         let viewModel = HomeViewModel(githubService: GithubServiceMock(with: .success))
         
         var issues: [GithubIssue]!
@@ -36,4 +36,17 @@ class HomeViewModelTests: XCTestCase {
         XCTAssertEqual(issue.state, .open)
     }
     
+    func test_fetch_and_receive_empty_data() {
+        let viewModel = HomeViewModel(githubService: GithubServiceMock(with: .empty))
+        
+        var issues: [GithubIssue]!
+        
+        viewModel.issues.drive(onNext: { _issues in
+            issues = _issues
+        }).disposed(by: disposeBag)
+        
+        viewModel.fetch()
+        
+        XCTAssertEqual(issues.count, 0)
+    }
 }
