@@ -1,5 +1,8 @@
+## Architecture:
 
-## Installation
+![Architecture](https://miro.medium.com/max/2000/1*d1DXDtaoZVm8J-exVOkSOw.png)
+
+## Installation:
 
 1 - git clone https://github.com/daflecardoso/GihubRepositoriesDafleCardoso
 
@@ -27,11 +30,7 @@
 
   RxTest
 
-## Architecture
-
-![Architecture](https://miro.medium.com/max/2000/1*d1DXDtaoZVm8J-exVOkSOw.png)
-
-## How to run unit tests?
+## How to run Unit tests?
 
 1 - open xcode
 
