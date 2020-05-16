@@ -13,7 +13,6 @@
 		D27E5925246DD05700CC9E89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D27E5923246DD05700CC9E89 /* Main.storyboard */; };
 		D27E5927246DD05800CC9E89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D27E5926246DD05800CC9E89 /* Assets.xcassets */; };
 		D27E592A246DD05800CC9E89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D27E5928246DD05800CC9E89 /* LaunchScreen.storyboard */; };
-		D27E5935246DD05900CC9E89 /* GihubRepositoriesDafleCardosoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E5934246DD05900CC9E89 /* GihubRepositoriesDafleCardosoTests.swift */; };
 		D27E5940246DD05900CC9E89 /* GihubRepositoriesDafleCardosoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E593F246DD05900CC9E89 /* GihubRepositoriesDafleCardosoUITests.swift */; };
 		D27E5954246DD4EA00CC9E89 /* GithubApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E5953246DD4EA00CC9E89 /* GithubApi.swift */; };
 		D27E5957246DD59D00CC9E89 /* Enviroment.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E5956246DD59D00CC9E89 /* Enviroment.swift */; };
@@ -87,7 +86,6 @@
 		D27E5929246DD05800CC9E89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D27E592B246DD05800CC9E89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D27E5930246DD05900CC9E89 /* GihubRepositoriesDafleCardosoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GihubRepositoriesDafleCardosoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D27E5934246DD05900CC9E89 /* GihubRepositoriesDafleCardosoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GihubRepositoriesDafleCardosoTests.swift; sourceTree = "<group>"; };
 		D27E5936246DD05900CC9E89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D27E593B246DD05900CC9E89 /* GihubRepositoriesDafleCardosoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GihubRepositoriesDafleCardosoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D27E593F246DD05900CC9E89 /* GihubRepositoriesDafleCardosoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GihubRepositoriesDafleCardosoUITests.swift; sourceTree = "<group>"; };
@@ -229,7 +227,6 @@
 				D27E59A624706ADF00CC9E89 /* Data */,
 				D27E599924705E7600CC9E89 /* Mock */,
 				D27E599524705DF300CC9E89 /* Scenes */,
-				D27E5934246DD05900CC9E89 /* GihubRepositoriesDafleCardosoTests.swift */,
 				D27E5936246DD05900CC9E89 /* Info.plist */,
 			);
 			path = GihubRepositoriesDafleCardosoTests;
@@ -701,7 +698,6 @@
 				D27E59A5247068BD00CC9E89 /* HomeViewControllerTests.swift in Sources */,
 				D27E599E2470601D00CC9E89 /* GithubServiceMock.swift in Sources */,
 				D27E599C24705EAF00CC9E89 /* MockType.swift in Sources */,
-				D27E5935246DD05900CC9E89 /* GihubRepositoriesDafleCardosoTests.swift in Sources */,
 				D27E59A924706B0600CC9E89 /* GithubIssueTests.swift in Sources */,
 				D27E599824705E1A00CC9E89 /* HomeViewModelTests.swift in Sources */,
 			);
