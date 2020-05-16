@@ -16,4 +16,9 @@ extension String {
         }
         return url
     }
+    
+    func toObject<T: Decodable>() -> T? {
+        let data = Bundle.main.dataFromJsonFile(name: self)
+        return try? JSONDecoder.default.decode(T.self, from: data)
+    }
 }
