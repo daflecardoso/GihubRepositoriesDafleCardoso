@@ -46,6 +46,7 @@
 		D27E599C24705EAF00CC9E89 /* MockType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E599B24705EAF00CC9E89 /* MockType.swift */; };
 		D27E599E2470601D00CC9E89 /* GithubServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E599D2470601D00CC9E89 /* GithubServiceMock.swift */; };
 		D27E59A02470619C00CC9E89 /* Bundle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E599F2470619C00CC9E89 /* Bundle+Extensions.swift */; };
+		D27E59A3247066AA00CC9E89 /* mock_issues_response_success.json in Resources */ = {isa = PBXBuildFile; fileRef = D27E59A2247066AA00CC9E89 /* mock_issues_response_success.json */; };
 		F36D55656C976C89D4CAD27B /* Pods_GihubRepositoriesDafleCardoso_GihubRepositoriesDafleCardosoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92BC1B2DA424034D8B5C7897 /* Pods_GihubRepositoriesDafleCardoso_GihubRepositoriesDafleCardosoUITests.framework */; };
 		FD4776271AA7F69C9AA2EFED /* Pods_GihubRepositoriesDafleCardoso.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 567C64617566191982F3F841 /* Pods_GihubRepositoriesDafleCardoso.framework */; };
 /* End PBXBuildFile section */
@@ -120,6 +121,7 @@
 		D27E599B24705EAF00CC9E89 /* MockType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockType.swift; sourceTree = "<group>"; };
 		D27E599D2470601D00CC9E89 /* GithubServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubServiceMock.swift; sourceTree = "<group>"; };
 		D27E599F2470619C00CC9E89 /* Bundle+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Extensions.swift"; sourceTree = "<group>"; };
+		D27E59A2247066AA00CC9E89 /* mock_issues_response_success.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = mock_issues_response_success.json; sourceTree = "<group>"; };
 		EC5C67A6101AD36E6BA9DDC5 /* Pods_GihubRepositoriesDafleCardosoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GihubRepositoriesDafleCardosoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -203,6 +205,7 @@
 				D27E594F246DD48A00CC9E89 /* Extensions */,
 				D27E594D246DD47500CC9E89 /* Data */,
 				D27E594E246DD48000CC9E89 /* Scenes */,
+				D27E59A12470668F00CC9E89 /* Mock */,
 				D27E591D246DD05700CC9E89 /* AppDelegate.swift */,
 				D27E5921246DD05700CC9E89 /* ViewController.swift */,
 				D27E5956246DD59D00CC9E89 /* Enviroment.swift */,
@@ -370,6 +373,14 @@
 			path = Util;
 			sourceTree = "<group>";
 		};
+		D27E59A12470668F00CC9E89 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				D27E59A2247066AA00CC9E89 /* mock_issues_response_success.json */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -480,6 +491,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D27E59A3247066AA00CC9E89 /* mock_issues_response_success.json in Resources */,
 				D27E592A246DD05800CC9E89 /* LaunchScreen.storyboard in Resources */,
 				D27E597F247027F000CC9E89 /* IssueDetailViewController.xib in Resources */,
 				D27E59892470333D00CC9E89 /* HomeViewController.xib in Resources */,
