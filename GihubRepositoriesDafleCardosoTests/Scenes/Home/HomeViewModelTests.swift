@@ -49,4 +49,17 @@ class HomeViewModelTests: XCTestCase {
         
         XCTAssertEqual(issues.count, 0)
     }
+    
+    func test_fetch_issues_and_receive_error() {
+        let viewModel = HomeViewModel(githubService: GithubServiceMock(with: .error))
+        var issues: [GithubIssue]!
+        
+        viewModel.issues.asObservable().subscribe(onNext: { _issues in
+            issues = _issues
+        }).disposed(by: disposeBag)
+        
+        viewModel.fetch()
+        
+        XCTAssertNil(issues)
+    }
 }
