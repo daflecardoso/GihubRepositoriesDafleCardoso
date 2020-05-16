@@ -36,7 +36,7 @@ extension GithubApi: TargetType {
     var sampleData: Data {
         switch self {
         case .issues:
-            return Data()
+            return Bundle.main.dataFromJsonFile(name: "mock_issues_response_sucess_moya")
         }
     }
     

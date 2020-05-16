@@ -49,6 +49,8 @@
 		D27E59A5247068BD00CC9E89 /* HomeViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E59A4247068BD00CC9E89 /* HomeViewControllerTests.swift */; };
 		D27E59A924706B0600CC9E89 /* GithubIssueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E59A824706B0600CC9E89 /* GithubIssueTests.swift */; };
 		D27E59AE24706F5200CC9E89 /* IssueDetailViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E59AD24706F5200CC9E89 /* IssueDetailViewControllerTests.swift */; };
+		D27E59B0247070F400CC9E89 /* HomeViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E59AF247070F400CC9E89 /* HomeViewControllerUITests.swift */; };
+		D27E59B22470724000CC9E89 /* mock_issues_response_sucess_moya.json in Resources */ = {isa = PBXBuildFile; fileRef = D27E59B12470724000CC9E89 /* mock_issues_response_sucess_moya.json */; };
 		F36D55656C976C89D4CAD27B /* Pods_GihubRepositoriesDafleCardoso_GihubRepositoriesDafleCardosoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92BC1B2DA424034D8B5C7897 /* Pods_GihubRepositoriesDafleCardoso_GihubRepositoriesDafleCardosoUITests.framework */; };
 		FD4776271AA7F69C9AA2EFED /* Pods_GihubRepositoriesDafleCardoso.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 567C64617566191982F3F841 /* Pods_GihubRepositoriesDafleCardoso.framework */; };
 /* End PBXBuildFile section */
@@ -126,6 +128,8 @@
 		D27E59A4247068BD00CC9E89 /* HomeViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewControllerTests.swift; sourceTree = "<group>"; };
 		D27E59A824706B0600CC9E89 /* GithubIssueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubIssueTests.swift; sourceTree = "<group>"; };
 		D27E59AD24706F5200CC9E89 /* IssueDetailViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueDetailViewControllerTests.swift; sourceTree = "<group>"; };
+		D27E59AF247070F400CC9E89 /* HomeViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewControllerUITests.swift; sourceTree = "<group>"; };
+		D27E59B12470724000CC9E89 /* mock_issues_response_sucess_moya.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = mock_issues_response_sucess_moya.json; sourceTree = "<group>"; };
 		EC5C67A6101AD36E6BA9DDC5 /* Pods_GihubRepositoriesDafleCardosoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GihubRepositoriesDafleCardosoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -384,6 +388,7 @@
 			isa = PBXGroup;
 			children = (
 				D27E59A2247066AA00CC9E89 /* mock_issues_response_success.json */,
+				D27E59B12470724000CC9E89 /* mock_issues_response_sucess_moya.json */,
 			);
 			path = Mock;
 			sourceTree = "<group>";
@@ -415,6 +420,7 @@
 		D27E59AB24706F1000CC9E89 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				D27E59AF247070F400CC9E89 /* HomeViewControllerUITests.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -539,6 +545,7 @@
 			files = (
 				D27E59A3247066AA00CC9E89 /* mock_issues_response_success.json in Resources */,
 				D27E592A246DD05800CC9E89 /* LaunchScreen.storyboard in Resources */,
+				D27E59B22470724000CC9E89 /* mock_issues_response_sucess_moya.json in Resources */,
 				D27E597F247027F000CC9E89 /* IssueDetailViewController.xib in Resources */,
 				D27E59892470333D00CC9E89 /* HomeViewController.xib in Resources */,
 				D27E5927246DD05800CC9E89 /* Assets.xcassets in Resources */,
@@ -736,6 +743,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D27E5940246DD05900CC9E89 /* GihubRepositoriesDafleCardosoUITests.swift in Sources */,
+				D27E59B0247070F400CC9E89 /* HomeViewControllerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

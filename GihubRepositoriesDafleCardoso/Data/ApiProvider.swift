@@ -11,15 +11,15 @@ import Moya
 
 class ApiProvider<Target: TargetType>: MoyaProvider<Target> {
     
+    private let enabledMock = ProcessInfo.processInfo.arguments.contains("UITest")
+    
     init() {
         let configuration = NetworkLoggerPlugin.Configuration(logOptions: .verbose)
         let plugin = NetworkLoggerPlugin(configuration: configuration)
-        super.init(plugins: [plugin])
-    }
-    
-    init(stub: Bool) {
-        let configuration = NetworkLoggerPlugin.Configuration(logOptions: .verbose)
-        let plugin = NetworkLoggerPlugin(configuration: configuration)
-        super.init(stubClosure: MoyaProvider.delayedStub(0.1), plugins: [plugin])
+        if self.enabledMock {
+            super.init(stubClosure: MoyaProvider.delayedStub(0.1), plugins: [plugin])
+        } else {
+            super.init(plugins: [plugin])
+        }
     }
 }

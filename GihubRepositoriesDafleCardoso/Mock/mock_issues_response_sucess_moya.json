@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "number": 22222,
+        "title": "MOCK_FIRST_TITLE",
+        "body": "MOCK_FIRST_BODY",
+        "created_at": "2020-01-16T05:17:30Z",
+        "user": {
+            "avatar_url": "https://user-image.com"
+        },
+        "state": "open"
+    },
+    {
+        "id": 2,
+        "number": 23333,
+        "title": "MOCK_SECOND_TITLE",
+        "body": "MOCK_SECOND_BODY",
+        "created_at": "2020-02-16T05:17:30Z",
+        "user": {
+            "avatar_url": "https://user-image.com"
+        },
+        "state": "close"
+    },
+    {
+        "id": 3,
+        "number": 24444,
+        "title": "MOCK_THIRD_TITLE",
+        "body": "MOCK_THIRD_BODY",
+        "created_at": "2020-03-16T05:17:30Z",
+        "user": {
+            "avatar_url": "https://user-image.com"
+        },
+        "state": "open"
+    }
+]

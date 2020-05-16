@@ -37,6 +37,7 @@ class HomeViewController: BaseViewController {
     
     func setupTableView() {
         self.title = "Swift issues"
+        view.accessibilityIdentifier = "Main View"
         self.tableView.register(cellType: HomeCell.self)
         self.viewModel
             .issues
