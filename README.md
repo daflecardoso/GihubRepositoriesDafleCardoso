@@ -1,6 +1,6 @@
 ## Architecture:
 
-![Architecture](https://miro.medium.com/max/2000/1*d1DXDtaoZVm8J-exVOkSOw.png)
+![Architecture](https://github.com/daflecardoso/GihubRepositoriesDafleCardoso/blob/master/GihubRepositoriesDafleCardoso/final-architecture.png)
 
 ## Installation:
 
